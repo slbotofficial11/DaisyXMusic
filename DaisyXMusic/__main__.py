@@ -1,5 +1,5 @@
-# DaisyXMusic (Telegram bot project)
-# Copyright (C) 2021  Inuka Asith & Rojserbest
+# SLBOTs Music (Telegram bot project)
+# Copyright (C) 2021  Sadew Jayasekara & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from DaisyXMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from DaisyXMusic.services.callsmusic import run
+from SLBOTsMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from SLBOTsMusic.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
